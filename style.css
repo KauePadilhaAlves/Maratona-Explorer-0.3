@@ -1,0 +1,101 @@
+/* GLOBAL */
+* {
+  margin: 3px;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://img.freepik.com/vetores-premium/padrao-sem-emenda-de-fast-food-com_202271-545.jpg?w=740); /* hex: 0-F */
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FONTS */
+h1, h2, h3, .price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: #2D2C2A;
+}
+
+/* HEADER */
+header {
+  padding: 32px 0;
+  text-align: center;
+  background-color: #000000e0;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+  color: rgb(255, 255, 255);
+}
+
+header h1 span {
+  color: #2E8B57;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  
+}
+
+/* SECTION */
+section {
+  margin-bottom: 24px;
+  background-color: #000000e0;
+  color: rgb(255, 255, 255);
+}
+
+section h2 {
+  margin: auto;
+  background-color: #66cdab8c;
+  padding: 8px 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* LISTA */
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+  
+}
+
+li .details {
+  max-width: 240px;
+  color: rgb(255, 255, 255);
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+}
+
+.details p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.price p
+{
+  color: rgb(255, 255, 255);
+}
+
+
+
